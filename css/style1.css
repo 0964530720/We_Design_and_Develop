@@ -1,0 +1,435 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e9e9e9;
+}
+header {
+    padding-top: 39px;
+    margin-bottom: 169px;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.container:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+header .logo{
+    float: left;
+}
+
+header nav{
+    float: right;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #191919;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+header nav ul li:hover a, header nav ul li.active a{
+    color: #10c9c3;
+}
+.f1_right {
+    float: right;
+}
+.banner_information .f1_right {
+    width: 42%;
+    padding-bottom: 50px;
+}
+.banner_information .f1_right h1 {
+    font-size: 38px;
+    color: #1d1d1d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+.banner_information .f1_right p {
+    font-size: 18px;
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.contact_us {
+    height: 54px;
+    width: 180px;
+    color: white;
+    background-color: #10c9c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 200px;
+                }
+.about_us {
+    background-color: white;
+    text-align: center;
+}
+
+.about_us h2 {
+    font-size: 30px;
+    color: #191919;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.about_us p {
+    font-size: 16px;
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+
+}
+.about_us img {
+    padding-top: 40px;
+    padding-bottom: 100px;}
+.skills {
+    background-color: #f8f9f9;
+
+}
+
+.skills h3 {
+    font-size: 30px;
+    color: #171717;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 165px;
+    padding-bottom: 41px;
+    }
+progress::-webkit-progress-value{
+    background-color: #10c9c3;
+    }
+progress::-webkit-progress-bar{
+    background-color: #d8d8d8;}
+.skills progress {
+    background-color: #d8d8d8;
+    height: 3px;
+    width: 500px;
+
+    }
+.skills p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.skill_design, .skill_development {
+    padding-bottom: 41px;
+}
+.skill_marketing {
+    padding-bottom: 164px;
+}
+.statistic {
+    background-color: #39b4af;
+    }
+.statistic .block {
+    display: inline-block;
+    padding-right: 97px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+        }
+.statistic .block .info .number {
+    font-size: 18px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-bottom: 16px;
+    }
+.statistic .block .info p {
+    font-size: 12px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+       }
+
+.statistic .block i {
+    color: white;
+    font-size: 48px;
+    padding-right: 20px;
+            }
+.statistic .block {
+    display: flex;
+    float: left;
+}
+.statistic .block:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.statistic .block:first-child {
+    padding-left: 4px;
+}
+
+
+.cube {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+}
+.container_second {
+   max-width: 1366px;
+   margin: auto;
+}
+.chess ul li {
+    display: block;
+    height: 300px;
+    width: 342px;
+}
+.chess .gray {
+
+    background-color: #838383;
+}
+.chess .lite_gray{
+
+    background-color: #dddddd;
+}
+.chess .black{
+
+    background-color: #252525;
+}
+.chess .black {
+    text-align: center;
+    color: white;}
+.chess .cube i {
+    font-size: 48px;
+    color: white;
+    padding-top: 133px;
+    }
+.load_more_work h4 {
+    font-size: 12px;
+    color: #8e8e8e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+}
+.our_work_process {
+    background-color: white;
+    text-align: center;
+}
+.our_work_process h3 {
+    font-size: 30px;
+    color: #191919;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 100px;
+
+
+}
+.our_work_process p {
+    font-size: 16px;
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    padding-top: 44px;
+    padding-bottom: 60px;
+    line-height: 25px;
+
+}
+.our_work_process img {
+    padding-bottom: 100px;
+}
+.icons {
+    background-color: #f5f5f5;
+    }
+.icons ul li {
+    display: block;
+    text-align: center;
+    padding-right: 65px;
+            }
+.icons ul li:last-child {
+ padding-right: 32px;
+}
+.icons ul li:first-child {
+    padding-left: 20px;
+}
+.icons ul {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 102px;
+    padding-top: 102px;
+}
+.icons i {
+    font-size: 48px;
+        }
+.icons .first {
+    padding-bottom: 40px;
+}
+.icons h5{
+    font-size: 12px;
+    color: #191919;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+    padding-top: 30px;
+}
+.icons p {
+    font-size: 16px;
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+
+.hopkins {
+    background-color: #10c9c3;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.hopkins h3 {
+    font-size: 24px;
+    color: white;
+    padding-top: 188px;
+    padding-bottom: 40px;
+
+}
+.hopkins h4 {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 179px;
+}
+.handmade {
+    background-color: white;
+}
+.handmade .images {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 37px 70px 37px;
+}
+.handmade .vintage {
+    padding-left: 38px;
+  }
+.need_a_project {
+    background-color: #f5f5f5;
+}
+.need_a_project .need {
+    max-width: 670px;
+    margin: auto;
+}
+.need_a_project h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #1d1d1d;
+    padding-top: 100px;
+}
+.need_a_project .need p {
+    font-size: 16px;
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 44px;
+    padding-bottom: 41px;
+    text-align: center;
+}
+.need_a_project .btn button{
+    width: 180px;
+    height: 54px;
+    background-color: #10c9c3;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+.need_a_project .btn {
+    text-align: center;
+    padding-bottom: 100px;
+    }
+.need_a_project .about .name_email,.title,.comment{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.need_a_project .about .name_email .name,.post{
+    width: 320px;
+    height: 48px;
+    text-indent: 20px;
+        }
+.need_a_project .need input{
+    border: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    }
+.need_a_project .need .title input{
+    height: 48px;
+    width: 670px;
+    text-indent: 20px;
+}
+.need_a_project .need .comment input{
+    height: 170px;
+    width: 670px;
+    text-indent: 20px;
+        }
+.need_a_project .about .name_email{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: #141414;
+    }
+
+h5 {
+    font-size: 18px;
+    color: #e9e9e9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 103px;
+        }
+
+
+.fut_one {
+    display: block;
+       }
+footer p{
+    font-size: 15px;
+    color: #888888;
+    line-height: 24px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 104px;
+    padding-top: 103px;
+}
+.fut_two{
+    max-width: 146px;
+}
+.fut_three,.fut_four{
+    max-width: 50px;
+    }
+.fut_five {
+    max-width: 65px;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+.piroll{
+    padding-top: 30px;
+    max-width: 220px;
+}
